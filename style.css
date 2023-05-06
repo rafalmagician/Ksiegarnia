@@ -12,7 +12,8 @@ body{
     margin: 0 auto;
 }
     #logo{
-        width: 250px;
+        float: left;
+        width: 290px;
         margin: 5px 0;
         padding: 5px;
     }
@@ -25,6 +26,24 @@ body{
             float: left;
             margin: 10px 0 0 5px;
         }
+    #nav_bar{
+        float: left;
+        width: 700px;
+        margin: 5px 0;
+        text-align: right;
+    }
+        #nav{
+            margin-top: 25px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+        }
+            a:first-child{
+                text-decoration: underline #ff1031 solid 5px;
+                color: #ff1031;
+            }
 #container{
     background-color: #fff;
     width: 1000px;
