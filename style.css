@@ -5,11 +5,26 @@
 body{
     background-color: rgb(0, 0, 0);
 }
+#header{
+    width: 1000px;
+    height: 70px;
+    margin: 5px auto 0 auto;
+}
+    #logo{
+        margin: 5px 0 0 0;
+        width: 300px;
+        background-color: blue;
+    }
+        .logo{
+            width: 50px;
+            height: 50px;
+            margin: 10px 0 0 30px;
+        }
 #container{
     background-color: #fff;
-    width: 600px;
-    height: 350px;
+    width: 990px;
+    height: 500px;
     border-radius: 20px;
-    margin: 50px auto 0 auto;
+    margin: 5px auto 0 auto;
     padding: 5px;
 }
