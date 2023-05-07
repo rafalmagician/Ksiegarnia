@@ -9,7 +9,7 @@ body{
 }
 #header{
     width: 1000px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
     #logo{
         float: left;
@@ -33,7 +33,7 @@ body{
         text-align: right;
     }
         #nav{
-            margin-top: 25px;
+            margin-top: 30px;
         }
         a{
             text-decoration: none;
@@ -45,8 +45,22 @@ body{
                 color: #ff1031;
             }
 #container{
-    background-color: #fff;
-    width: 1000px;
-    height: 500px;
-    margin: 0 auto;
+    width: 980px;
+    margin: 5px auto;
+    padding: 5px;
 }
+    h3{
+        padding: 10px 0 10px 10px;
+        background-color: #ff1031;
+    }
+    .tiles{
+        background-color: black;
+        margin: 5px;
+    }
+        .tile{
+            border: 1px solid #fff;
+            float: left;
+            width: 311px;
+            height: 310px;
+            margin: 5px;
+        }
