@@ -64,19 +64,25 @@ body{
             height: 300px;
             margin: 5px;
         }
-            .ksiazka{
+            #image_book{
                 float: left;
-                width: 115px;
-                height: 180px;
-                padding: 5px;
+                width: 145px;
             }
-            h4{
+                .book{
+                    width: 133px;
+                    height: 200px;
+                    padding: 5px;
+                }
+            #text_book{
                 float: left;
-                padding: 5px;
+                width: 328px;
             }
-            .tekst_ksiazki{
-                font-size: 12px;
-                padding: 5px;
-                text-align: justify;
-                text-indent: 20px;
-            }
+                h4{
+                    padding: 10px 20px 5px 20px;
+                }
+                p{
+                    font-size: 16px;
+                    padding: 5px 20px;
+                    text-align: justify;
+                    text-indent: 20px;
+                }
