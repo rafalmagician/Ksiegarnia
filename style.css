@@ -14,22 +14,22 @@ body{
 }
     #logo{
         float: left;
-        width: 290px;
+        width: 350px;
         margin: 5px 0;
         padding: 5px;
     }
         .logo{
             float: left;
-            width: 80px;
-            height: 80px;
+            width: 90px;
+            height: 90px;
         }
-        #logo__p{
+        h2{
             float: left;
-            margin: 10px 0 0 5px;
+            margin: 0 0 0 5px;
         }
     #nav_bar{
         float: left;
-        width: 700px;
+        width: 640px;
         margin: 5px 0;
         text-align: right;
     }
@@ -86,3 +86,12 @@ body{
                     text-align: justify;
                     text-indent: 20px;
                 }
+            #button{
+                width: 400px;
+                height: 30px;
+                margin: 20px auto 0 auto;
+                background-color: #ff1031;
+                border-radius: 50px;
+                text-align: center;
+                font-weight: bold;
+            }
