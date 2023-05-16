@@ -52,7 +52,7 @@ body{
     padding: 5px;
 }
     h3{
-        padding: 10px 0 10px 10px;
+        padding: 5px 0 5px 10px;
         background-color: #ff1031;
     }
     .tiles{
@@ -62,7 +62,7 @@ body{
             border: 1px solid #fff;
             float: left;
             width: 473px;
-            height: 300px;
+            height: 240px;
             margin: 5px;
         }
             .image_book{
@@ -71,15 +71,16 @@ body{
             }
                 .book{
                     width: 133px;
-                    height: 200px;
-                    padding: 5px;
+                    height: 190px;
+                    padding-top: 5px;
+                    margin-left: 20px;
                 }
             .text_book{
                 float: left;
                 width: 328px;
             }
                 h4{
-                    padding: 10px 20px 5px 20px;
+                    padding: 5px 20px 5px 20px;
                 }
                 p{
                     font-size: 16px;
@@ -90,7 +91,7 @@ body{
             .button{
                 width: 400px;
                 height: 30px;
-                margin: 20px auto 0 auto;
+                margin: 0 auto 0 auto;
                 background-color: #ff1031;
                 border-radius: 50px;
                 text-align: center;
