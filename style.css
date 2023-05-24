@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	background-color: #33df00;
+	background-color: #2e2e2e;
 	font-size: 16px;
 	color: #fff;
 }
@@ -11,59 +11,50 @@ body{
 	width: 100%;
 }
 	#header{
-		width: 1000px;
+		width: 600px;
 		margin: 0 auto;
-		margin-top: 5px;
-		background-color: #19e;
-		box-shadow: 0 0 5px #000;
+		margin-top: 10px;
+		box-shadow: 0 0 5px #700;
 	}
 		#logo{
 			float: left;
-			margin-left: 30px;
 		}
 			.logo{
-				width: 180px;
-				height: 180px;
-				padding: 5px;
+				width: 70px;
+				height: 70px;
+				border-radius: 10px;
+				box-shadow: 0 0 3px #fff;
 			}
 		#logo_text{
 			float: left;
-			font-size: 36px;
+			font-size: 28px;
 			text-transform: uppercase;
 			font-weight: bold;
-			line-height: 1.3;
-			margin: 30px 0 0 -43px;
-			padding: 20px 0 0 60px;
-			text-shadow: 0 0 5px #000, 2px 2px 0 #000;
+			margin: 20px 0 0 10px;
+			text-shadow: 0 0 5px #700, 2px 2px 0 #700;
 		}
 	#social_media{
 		width: 100%;
-		margin: 10px auto;
-		background-color: #19e;
-		height: 100px;
+		margin: 10px 0;
+		background-color: #1e1e1e;
+		box-shadow: 0 0 5px #500;
+		height: 70px;
 	}
 	#content{
-		width: 990px;
-		box-shadow: 0 0 5px #000;
+		width: 590px;
+		box-shadow: 0 0 5px #700;
 		margin: 5px auto;
 		padding: 0 5px;
 	}
 		#nav{
 			float: left;
 			margin: 5px;
-			width: 245px;
+			width: 185px;
 		}
-			a:link{
-				text-decoration: none;
-			}
-			a:hover{
-				text-decoration: underline;
-				background-color: #000;
-			}
 			.nav_button{
 				margin: 10px 0;
 				padding: 15px 0;
-				box-shadow: 0 0 5px #000;
+				box-shadow: 0 0 5px #500;
 				border-radius: 3px;
 				text-align: center;
 				font-size: 18px;
@@ -72,27 +63,29 @@ body{
 		#section{
 			float: left;
 			margin: 5px;
-			width: 725px;
+			width: 385px;
 		}
 			.article{
 				padding: 10px;
 				margin: 10px 0;
-				box-shadow: 0 0 3px #000;
+				box-shadow: 0 0 5px #700;
 				border-radius: 5px;
 				text-align: justify;
 			}
 				.__button__more__info{
 					margin: 10px 0 0 0;
-					margin-left: 615px;
+					margin-left: 275px;
 					padding: 5px 20px;
-					background-color: #19e;
-					border-radius: 10px;
-					border-color: #19e;
-					box-shadow: 0 0 3px #000;
+					background-color: #2e2e2e;
+					border-radius: 5px;
+					box-shadow: 0 0 3px #700;
 					color: #fff;
 				}
 	#footer{
 		width: 100%;
 		margin: 10px auto;
 		text-align: center;
+		height: 50px;
+		background-color: #1e1e1e;
+		box-shadow: 0 0 5px #500;
 	}
