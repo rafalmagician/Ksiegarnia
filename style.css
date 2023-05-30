@@ -33,13 +33,28 @@ body{
 			margin: 20px 0 0 10px;
 			text-shadow: 0 0 5px #700, 2px 2px 0 #700;
 		}
-	#social_media{
+	#menu{
 		width: 100%;
 		margin: 10px 0;
 		background-color: #1e1e1e;
 		box-shadow: 0 0 5px #500;
 		height: 70px;
 	}
+		ol{
+			text-align: center;
+		}
+			ol li{
+				display: inline-block;
+				margin: 15px 0 0 40px;
+			}
+				li:first-child{
+					margin-left: 0;
+				}
+				ol li a{
+					text-decoration: none;
+					text-transform: uppercase;
+					text-shadow: 2px 2px 3px #500;
+				}
 	#content{
 		width: 590px;
 		box-shadow: 0 0 5px #700;
@@ -51,15 +66,31 @@ body{
 			margin: 5px;
 			width: 185px;
 		}
-			.nav_button{
-				margin: 10px 0;
-				padding: 15px 0;
-				box-shadow: 0 0 5px #500;
-				border-radius: 3px;
-				text-align: center;
-				font-size: 18px;
-				text-transform: uppercase;
+			ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
 			}
+				ul li{
+					box-shadow: 0 0 5px #700;
+					border-left: 5px solid #700;
+					text-transform: uppercase;
+					text-align: center;
+					margin-top: 10px;
+				}
+					ul li a{
+						text-decoration: none;
+						text-shadow: 2px 2px 3px #500;
+					}
+						a:link, a:visited{
+							color: #fff;
+						}
+						a:hover, a:active{
+							color: #500;
+						}
+						.__nav_square{
+							padding: 10px 0;
+						}
 		#section{
 			float: left;
 			margin: 5px;
@@ -85,7 +116,7 @@ body{
 		width: 100%;
 		margin: 10px auto;
 		text-align: center;
-		height: 50px;
 		background-color: #1e1e1e;
 		box-shadow: 0 0 5px #500;
+		padding: 20px 0;
 	}
