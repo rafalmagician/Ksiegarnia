@@ -18,7 +18,8 @@ body{
 		#logo{
 			float: left;
 			height: 100px;
-			margin-left: 10px;
+			margin-left: 5px;
+			padding: 5px;
 		}
 			.logo{
 				width: 200px;
@@ -31,7 +32,7 @@ body{
 			font-size: 48px;
 			text-transform: uppercase;
 			font-weight: bold;
-			margin: 20px 0 0 20px;
+			margin-left: 20px;
 			text-shadow: 0 0 5px #700, 3px 3px 0 #700;
 		}
 			#__span_logo_text{
@@ -44,7 +45,7 @@ body{
 		margin-bottom: 5px;
 		background-color: #1e1e1e;
 		box-shadow: 0 0 5px #500;
-		padding: 20px 0;
+		padding: 15px 0;
 		position: sticky;
 		top: 0;
 	}
@@ -117,11 +118,13 @@ body{
 				border-right: 10px solid #700;
 				border-radius: 5px;
 			}
-				.small_image{
+				.div_small_image{
 					float: left;
-					width: 150px;
-					height: 105px;
 				}
+					.small_image{
+						width: 150px;
+						height: 105px;
+					}
 				.text{
 					float: left;
 					margin-left: 10px;
